@@ -1,0 +1,50 @@
+/* About.css */
+* {
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: rgb(238, 12, 12);
+  }
+  
+  .about-container {
+    background-image: url('https://st3.depositphotos.com/5411610/15334/i/450/depositphotos_153344150-stock-photo-small-empty-shopping-cart.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .catalog {
+    margin-top: 20px;
+  }
+  
+  .phone-catalog {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .phone-item {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .phone-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .phone-item p {
+    margin-top: 10px;
+    font-weight: bold;
+  }

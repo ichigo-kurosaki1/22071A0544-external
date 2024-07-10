@@ -1,0 +1,45 @@
+/* Login.css */
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensure text is centered within labels */
+    padding: 20px; /* Add padding for better spacing */
+    max-width: 300px; /* Set a max-width for the form */
+    margin: 0 auto; /* Center the form on the page */
+    border: 1px solid #ccc; /* Add a border for better distinction */
+    border-radius: 8px; /* Rounded corners */
+    background: #f9f9f9; /* Light background color */
+  }
+  
+  .loginForm label {
+    margin: 10px 0; /* Add margin between labels for spacing */
+    width: 100%; /* Ensure labels take up full width */
+  }
+  
+  .loginForm input {
+    margin-top: 5px; /* Add a margin between label text and input */
+    padding: 10px; /* Add padding inside input fields */
+    width: 100%; /* Make input fields take full width of the form */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px; /* Add padding to the button */
+    margin-top: 20px; /* Add margin to separate from inputs */
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darken button on hover */
+  }
+  
